@@ -45,5 +45,11 @@
     <ClCompile Include="p1147.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="p3397.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="p1387.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
