@@ -1,6 +1,8 @@
 # 常用指令
 
 ```shell
+在visual studio里面改完记得build一下才会把vs里面改好的东西同步到linux中projects文件夹下
+
 cd /mnt/c/Users/wuzif/source/repos/everyday_homework/linux_study：切换到这个目录
 
 ls：查看当前目录下文件 ll:查看隐藏文件

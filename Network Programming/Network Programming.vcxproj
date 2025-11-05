@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{4b7a1f50-5549-46b7-a8a3-6d8c20ea7da1}</ProjectGuid>
-    <RootNamespace>Basic</RootNamespace>
+    <ProjectGuid>{02ba7337-c189-42b7-acdb-e22e62dc0304}</ProjectGuid>
+    <RootNamespace>NetworkProgramming</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -74,7 +74,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;RUN_P1496</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -88,7 +88,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;RUN_TEST</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -123,19 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="fenwick.cpp" />
-    <ClCompile Include="groupfile_5_(4).cpp" />
-    <ClCompile Include="groupfile_6_(4).cpp" />
-    <ClCompile Include="p1047.cpp" />
-    <ClCompile Include="p1147.cpp" />
-    <ClCompile Include="p1308.cpp" />
-    <ClCompile Include="p1387.cpp" />
-    <ClCompile Include="p1496.cpp" />
-    <ClCompile Include="p2357.cpp" />
-    <ClCompile Include="p3397.cpp" />
-    <ClCompile Include="p5723.cpp" />
-    <ClCompile Include="p5738.cpp" />
-    <ClCompile Include="test.cpp" />
+    <ClCompile Include="server.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

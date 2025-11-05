@@ -1,3 +1,4 @@
+#ifdef RUN_MAIN
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -21,3 +22,4 @@ int main(int argc, char* argv[])
 	printf("%ld + %ld -> %ld\n", x, y, z);
 	return 0;
 }
+#endif
