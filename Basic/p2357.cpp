@@ -1,4 +1,4 @@
-
+﻿
 #ifdef RUN_P2357
 #include <iostream>
 #include <vector>
@@ -8,7 +8,7 @@
 using namespace std;
 
 
-class Fenwick_Tree
+class Fenwick_Tree 
 {
 private:
 	vector<int> m_tree;//m_trees索引从1开始, m_tree[0]填充默认值

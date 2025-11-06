@@ -1,11 +1,11 @@
-#ifdef RUN_P5723
+﻿#ifdef RUN_P5723
 #include <vector>
 #include <iostream>
 #include <cmath>
 using namespace std;
 
 bool isPrimeNum(int n)
-{
+{ 
 	if (n <= 1)
 		return false;
 	if (n == 2 || n == 3)

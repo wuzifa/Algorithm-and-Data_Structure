@@ -1,4 +1,4 @@
-#ifdef RUN_P1171
+﻿#ifdef RUN_P1171
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -15,7 +15,7 @@ void loop_mask(T subset, int ele_num, func f, int larger_mask)
 	//遍历每个bit查看它是否为0
 	for (int bit_no = 0; bit_no < ele_num; bit_no++)
 	{
-		if (subset & (T(1) << bit_no))
+		if (subset & (T(1) << bit_no)) 
 		{
 			f();
 		}

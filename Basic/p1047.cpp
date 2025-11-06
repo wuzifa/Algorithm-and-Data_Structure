@@ -1,7 +1,7 @@
-#ifdef RUN_P1047
+﻿#ifdef RUN_P1047
 #include <iostream>
 #include <vector>
-#include <algorithm>
+#include <algorithm> 
 using namespace std;
 
 int main(void)

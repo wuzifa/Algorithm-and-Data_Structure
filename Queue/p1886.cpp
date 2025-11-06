@@ -1,4 +1,4 @@
-#ifdef RUN_P1886
+﻿#ifdef RUN_P1886 
 #include <iostream>
 #include <deque>
 #include <vector>

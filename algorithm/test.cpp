@@ -1,4 +1,4 @@
-#ifdef RUN_TEST
+﻿#ifdef RUN_TEST
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -40,7 +40,7 @@ int fibonacci(int k)
 
 int login(int accounts[], int passwords[], int size, int inputAccount, int inputPassword) 
 {
-	for (int i = 0; i < size; i++)
+	for (int i = 0; i < size; i++) 
 	{
 		if (inputAccount == accounts[i])
 		{

@@ -1,4 +1,4 @@
-#include <drawboard.h>
+﻿#include <drawboard.h> 
 
 
 const vector<int>* now_colorset = &white;

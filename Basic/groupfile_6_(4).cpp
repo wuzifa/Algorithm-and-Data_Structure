@@ -1,4 +1,4 @@
-#ifdef RUN_GROUPFILE64
+﻿#ifdef RUN_GROUPFILE64 
 #include <iostream>
 using namespace std;
 void up_func();

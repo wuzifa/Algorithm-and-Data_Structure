@@ -1,11 +1,11 @@
-#ifdef RUN_P1308
+﻿#ifdef RUN_P1308
 #include <iostream>
 #include <string>
 using namespace std;
 
 int main() {
 	string standard, line;
-	getline(cin, standard);
+	getline(cin, standard); 
 	getline(cin, line);
 
 	// 大小写统一

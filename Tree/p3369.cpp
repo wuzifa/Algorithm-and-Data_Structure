@@ -1,4 +1,4 @@
-#ifdef RUN_P3369
+﻿#ifdef RUN_P3369 
 #define _CRT_SECURE_NO_WARNINGS
 #include <vector>
 #include <iostream>

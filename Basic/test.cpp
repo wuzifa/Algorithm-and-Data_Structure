@@ -1,4 +1,4 @@
-#ifdef RUN_TEST
+﻿#ifdef RUN_TEST
 //#include <iostream>
 //#include <vector>
 //#include <algorithm>
@@ -10,7 +10,7 @@
 //	vector<int> v1, v2, target;
 //	v1.resize(a);
 //	v2.resize(b);
-//	int target_size = min(a, b);
+//	int target_size = min(a, b); 
 //	target.resize(target_size);
 //	for (int i = 0; i < a; i++)
 //	{

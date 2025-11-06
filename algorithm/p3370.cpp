@@ -1,4 +1,4 @@
-#ifdef RUN_P3370
+﻿#ifdef RUN_P3370
 #include <iostream>
 #include <set>
 #include <string>
@@ -17,7 +17,7 @@ int main(void)
 		cin >> str;
 		for (char i : str)
 		{
-			h1 = (h1 * base1 + i) % mod1;
+			h1 = (h1 * base1 + i) % mod1; 
 			h2 = (h2 * base2 + i) % mod2;
 		}
 		hashValue.insert(make_pair(h1, h2));

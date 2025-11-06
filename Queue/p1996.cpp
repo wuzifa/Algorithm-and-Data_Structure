@@ -1,5 +1,5 @@
-
-#ifdef RUN_P1996
+﻿
+#ifdef RUN_P1996 
 #include <iostream>
 #include <queue>
 #include <string>

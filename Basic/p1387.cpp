@@ -1,7 +1,7 @@
-#ifdef RUN_P1387
+﻿#ifdef RUN_P1387
 #include <iostream>
 #include <vector>
-using namespace std;
+using namespace std; 
 
 //一维前缀和维护一维区间内的和(一段线段含的数字的和)
 //那么二维前缀和就是维护二维区间内的和(一片面积含的数字的和)

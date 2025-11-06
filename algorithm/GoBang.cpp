@@ -1,4 +1,4 @@
-#ifdef RUN_GOBANG
+﻿#ifdef RUN_GOBANG
 #include<iostream>
 #include <chrono>
 #include <thread>
@@ -13,7 +13,7 @@ using namespace std;
 
 
 //C/C++:
-// -------------------- 数据设计 --------------------
+// -------------------- 数据设计 -------------------- 
 /*
     棋盘:
         board[i][j]表示坐标(i,j)的值

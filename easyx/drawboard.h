@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once 
 //!!!!!!!!!!!!!!!!!:
 //1.exmessage中的message变量都是WM_,而这些消息 (WM_XXXX) 判断的依据的是 事件过程（某一瞬间发生的动作），而不是持续状态
 //msg.lbutton , 当前左键是否处于按下状态（true/false）

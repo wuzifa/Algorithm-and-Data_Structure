@@ -1,8 +1,8 @@
-#ifdef RUN_P1147
+﻿#ifdef RUN_P1147
 #include <iostream>
 #include <vector>
 
-using namespace std;
+using namespace std; 
 
 
 

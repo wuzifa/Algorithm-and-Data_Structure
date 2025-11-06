@@ -1,4 +1,4 @@
-#ifdef RUN_P2242
+﻿#ifdef RUN_P2242
 #include <vector>
 #include <iostream>
 #include <algorithm>
@@ -12,7 +12,7 @@ int main(void)
 	vector<int> hole_gap;
 	while (hole_num--)
 	{
-		cin >> hole_coord;
+		cin >> hole_coord; 
 		hole.push_back(hole_coord);
 	}
 	for (auto it = hole.begin(); it != hole.end() - 1; it++)

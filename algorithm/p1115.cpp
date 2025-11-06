@@ -1,4 +1,4 @@
-#ifdef RUN_P1115
+﻿#ifdef RUN_P1115
 //kadane算法
 #include <iostream>
 #include <vector>
@@ -17,7 +17,7 @@ int main(void)
 	}
 	for (int i : data)
 	{
-		if (now_optimal_solution < 0)
+		if (now_optimal_solution < 0) 
 			now_optimal_solution = i;
 		else
 			now_optimal_solution += i;

@@ -1,4 +1,4 @@
-#ifdef RUN_P5738
+﻿#ifdef RUN_P5738
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -9,7 +9,7 @@ class mycompare
 {
 public:	//别忘了声明在public权限下，否则sort算法访问不了
 	bool operator()(int v1, int v2)
-	{
+	{ 
 		return v1 > v2;
 	}
 };

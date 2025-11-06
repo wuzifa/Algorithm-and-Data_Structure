@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once 
 #include <easyx.h>
 #include <iostream>
 #include <string>

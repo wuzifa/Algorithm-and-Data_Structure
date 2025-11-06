@@ -1,4 +1,4 @@
-#ifdef RUN_P1044
+﻿#ifdef RUN_P1044
 //采用回溯算法算出所有可能
 //卡特兰数
 #include <iostream>
@@ -13,7 +13,7 @@ static unsigned int ans = 0;
 //2.buffer_num >= 0(缓冲栈当前元素个数，小于0时说明可以kill node了) 
 //
 //couting condition: 
-//out_put_num == 输入序列元素总数,说明形成了一个完整的出栈序列,方案数加一
+//out_put_num == 输入序列元素总数,说明形成了一个完整的出栈序列,方案数加一 
 // 
 //想看得清楚就画递归树
 //每一步两个选择：

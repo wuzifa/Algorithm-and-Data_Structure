@@ -1,4 +1,4 @@
-#ifdef RUN_P1605
+﻿#ifdef RUN_P1605
 #include <iostream>
 #include <vector>
 #include <chrono>
@@ -16,7 +16,7 @@ struct Timer//计时器，在构造时开始计时，析构时结束计时
 
 	~Timer()
 	{
-		end = std::chrono::high_resolution_clock::now();
+		end = std::chrono::high_resolution_clock::now(); 
 		duration = end - start;
 
 		float ms = duration.count() * 1000.0f;

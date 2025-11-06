@@ -5,9 +5,11 @@
 
 cd /mnt/c/Users/wuzif/source/repos/everyday_homework/linux_study：切换到这个目录
 
-ls：查看当前目录下文件 ll:查看隐藏文件
+ls：查看当前目录下文件 -a查看所有东西(包括隐藏文件)，-l查看详细信息，-r/R递归进行(对目录进行操作一般用到)
 
 cat:查看文件内容
+
+tac: 倒过来逐行输出文件内容
 
 touch:创建文件
 

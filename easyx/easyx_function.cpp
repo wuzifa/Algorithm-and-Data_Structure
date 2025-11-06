@@ -1,4 +1,4 @@
-#include <easyx_function.h>
+﻿#include <easyx_function.h> 
 #include <time.h>
 extern ExMessage msg;
 

@@ -1,4 +1,4 @@
-#ifdef RUN_P3879
+﻿#ifdef RUN_P3879 
 #include <iostream>
 #include <vector>
 #include <bitset>

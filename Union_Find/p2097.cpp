@@ -1,4 +1,4 @@
-#ifdef RUN_P2097
+﻿#ifdef RUN_P2097
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -112,4 +112,5 @@ int main(void)
 
 }
 
-#endif
+
+#endif 

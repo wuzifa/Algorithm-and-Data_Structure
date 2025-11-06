@@ -1,4 +1,4 @@
-#ifdef RUN_P1481
+﻿#ifdef RUN_P1481
 #include <iostream>
 #include <string>
 using namespace std;
@@ -21,7 +21,7 @@ int main(void)
 	cin >> word_num;
 	unsigned int max_chain = 0, max_preqequisite;
 	// 遍历每个单词求dp[i](最长词链长度)，同时也符合解决子问题的顺序，
-	// 对于每个单词它的前提子问题在单词的前面，所以对于输入按正常顺序处理即可
+	// 对于每个单词它的前提子问题在单词的前面，所以对于输入按正常顺序处理即可 
 	for (unsigned int i = 0; i < word_num; i++)
 	{
 		cin >> word[i];

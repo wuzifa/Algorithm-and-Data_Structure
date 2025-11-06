@@ -1,5 +1,5 @@
-
-#ifdef RUN_FENWICK
+﻿
+#ifdef RUN_FENWICK 
 #include <iostream>
 #include <vector>
 

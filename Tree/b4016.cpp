@@ -1,4 +1,4 @@
-#ifdef	RUN_B4016
+﻿#ifdef	RUN_B4016
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -99,9 +99,6 @@ int main(void)
 	cout << Diameter(start, -10) << endl;
 	
 }
-
-
-
 
 
 

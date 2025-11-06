@@ -1,4 +1,4 @@
-#ifdef RUN_P3397
+﻿#ifdef RUN_P3397
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -10,7 +10,7 @@ using namespace std;
 //最后求每个点覆盖的地毯树就是求原数组每个索引处的值，(也就是求差分数组的前缀和)
 //综上所述用树状数组维护差分数组的前缀和
 class Fenwick_Tree
-{
+{ 
 private:
 	vector<int> m_tree;//m_trees索引从1开始, m_tree[0]填充默认值
 	unsigned int m_size;//表示m_tree这个vector的大小，包括m[0]

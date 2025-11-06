@@ -1,4 +1,4 @@
-#ifdef RUN_P1496
+﻿#ifdef RUN_P1496
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -48,7 +48,7 @@ int main(void)
 	for (int i = 0; i < size; i++)
 	{
 		find_index.insert(make_pair(endpoint_diff[i].first, i));
-	}
+	} 
 	for (auto p : end_pair)
 	{
 		endpoint_diff[find_index.at(p.first)].second += 1;

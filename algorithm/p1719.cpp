@@ -1,4 +1,4 @@
-#ifdef RUN_P1719
+﻿#ifdef RUN_P1719
 #include <iostream>
 using namespace std;
 
@@ -17,7 +17,7 @@ int Kadane(int* arr, int num)
 			current_sum = max_sum = arr[0];
 		else
 		{
-			current_sum = max(current_sum + arr[i], arr[i]);
+			current_sum = max(current_sum + arr[i], arr[i]); 
 			max_sum = max(max_sum, current_sum);
 		}
 	}

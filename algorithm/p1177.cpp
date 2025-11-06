@@ -1,4 +1,4 @@
-#ifdef RUN_P1177
+﻿#ifdef RUN_P1177
 #include <iostream>
 #include <vector>
 #include <cstdlib>
@@ -15,7 +15,7 @@ void swap(int& a, int& b)
 int Partition(vector<int>& list, int l, int r)//注意：l为要排序的list的最左边一个数的索引，r为最右边一个数的再右边一个索引(这里将r视作list的结尾标志)
 {
 	int pivot_index = l + rand() % ((r - 1) - l + 1), i, j;
-	swap(list[l], list[pivot_index]);
+	swap(list[l], list[pivot_index]); 
 	int pivot = list[l];
 	i = l; 
 	j = r;

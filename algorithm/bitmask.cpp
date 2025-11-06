@@ -1,4 +1,4 @@
-#ifdef RUN_BITMASK
+﻿#ifdef RUN_BITMASK
 #include <iostream>
 using namespace std;
 
@@ -14,7 +14,7 @@ void display(T subset)
 		{
 			//表示第bit_no + 1个元素在子集中
 			cout << 1 << ' ';//后面实现真正相关逻辑时把这里删了
-		}
+		} 
 		else
 			cout << 0 << ' ';//后面实现真正相关逻辑时把这里删了
 	}

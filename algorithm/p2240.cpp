@@ -1,4 +1,4 @@
-#ifdef RUN_P2240
+﻿#ifdef RUN_P2240
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -15,7 +15,7 @@ struct Coins
 class myCompare
 {
 public:
-	bool operator()(const Coins& a, const Coins& b)
+	bool operator()(const Coins& a, const Coins& b) 
 	{
 		return a.cost_perf > b.cost_perf;
 	}

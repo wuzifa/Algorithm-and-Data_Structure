@@ -1,4 +1,4 @@
-#ifdef RUN_P1144
+﻿#ifdef RUN_P1144
 #define _CRT_SECURE_NO_WARNINGS
 #include <vector>
 #include <iostream>
@@ -45,7 +45,7 @@ int main(void)
 	vector<bool> visited;
 	adj.resize(node_num + 1, vector<unsigned int>(4, 0));
 	road_num.resize(node_num + 1, 0);
-	visited.resize(node_num + 1, false);
+	visited.resize(node_num + 1, false); 
 	while (edge_num--)
 	{
 		cin >> a >> b;
