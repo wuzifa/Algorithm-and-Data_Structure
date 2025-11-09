@@ -74,7 +74,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;RUN_P1496</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;RUN_P2799</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -132,6 +132,7 @@
     <ClCompile Include="p1387.cpp" />
     <ClCompile Include="p1496.cpp" />
     <ClCompile Include="p2357.cpp" />
+    <ClCompile Include="p2799.cpp" />
     <ClCompile Include="p3397.cpp" />
     <ClCompile Include="p5723.cpp" />
     <ClCompile Include="p5738.cpp" />

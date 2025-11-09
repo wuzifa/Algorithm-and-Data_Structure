@@ -74,7 +74,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;RUN_P1192</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;RUN_P1113</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -127,6 +127,7 @@
     <ClCompile Include="bitmask.cpp" />
     <ClCompile Include="GoBang.cpp" />
     <ClCompile Include="p1044.cpp" />
+    <ClCompile Include="p1113.cpp" />
     <ClCompile Include="p1115.cpp" />
     <ClCompile Include="p1144.cpp" />
     <ClCompile Include="p1171.cpp" />
