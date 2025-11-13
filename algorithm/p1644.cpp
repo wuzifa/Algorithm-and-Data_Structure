@@ -11,7 +11,7 @@ static int row_max;
 
 // 利用递归自然递推，state_table[x][y] = state_table[x - 1][y - 2] + state_table[x - 2][y - 1] + state_table[x + 1][y - 2] + state_table[x + 2][y - 1]
 // (后面加上的前提是那个下标代表的点在棋盘里面)
-// 不要直接DFS求解原点可以到达的所有点的路径数，这样会计算大量无法到达右上角的点的路径数，浪费时间
+// 不要直接DFS求解原点可以到达的所有点的路径数，这样会计算大量无法到达右上角的点的路径数，浪费时间 
 unsigned int dfs_table(int row, int column)
 {
 	if (column == 0 && row == 0)
